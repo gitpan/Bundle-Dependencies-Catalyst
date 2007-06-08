@@ -1,6 +1,5 @@
-Bundle-Dependencies-Catalyst version 0.02
+Bundle-Dependencies-Catalyst version 0.01
 =========================================
-
 
 
 INSTALLATION
@@ -19,7 +18,6 @@ This module requires these other modules and libraries:
   none
 
 COPYRIGHT AND LICENCE
-
 
 Copyright (C) 2007 by Kevin W. Henwood
 

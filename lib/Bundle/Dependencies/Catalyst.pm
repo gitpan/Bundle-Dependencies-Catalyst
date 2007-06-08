@@ -2,7 +2,7 @@ package Bundle::Dependencies::Catalyst;
 
 
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 
 

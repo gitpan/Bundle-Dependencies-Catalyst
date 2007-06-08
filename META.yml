@@ -1,13 +1,10 @@
---- #YAML:1.0
-name:                Bundle-Dependencies-Catalyst
-version:             0.02
-abstract:            installs non-Catalyst prereqs
-license:             ~
-generated_by:        ExtUtils::MakeMaker version 6.32
-distribution_type:   module
-requires:     
-meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
-    version: 1.2
-author:
-    - Kevin W. Henwood <Khen1950fx@aol.com>
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Bundle-Dependencies-Catalyst
+version:      0.03
+version_from: lib/Bundle/Dependencies/Catalyst.pm
+installdirs:  site
+requires:
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30
