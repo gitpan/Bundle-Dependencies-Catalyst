@@ -2,12 +2,12 @@ package Bundle::Dependencies::Catalyst;
 
 
 
-our $VERSION = '0.01';
+$VERSION = '0.02';
 
 
 
 1;
-__END__;
+__END__
 
 
 =head1 NAME
@@ -1132,6 +1132,10 @@ IO::WrapTie
 MogileFS::Client
 
 FCGI::ProcManager
+
+=head2 EXPORT
+
+None by default.
 
 =head1 AUTHOR
 

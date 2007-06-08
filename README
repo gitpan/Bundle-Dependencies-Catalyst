@@ -1,12 +1,7 @@
-Bundle-Dependencies-Catalyst version 0.01
+Bundle-Dependencies-Catalyst version 0.02
 =========================================
 
-The main idea for this module was to hunt down and capture all of the non-Catalyst prerequisites for Catalyst. This should make it easier to install the Catalyst modules and save a considerable amount of time and effort.
-If you have any suggestions, comments, ideas, or modules that you would like to see included, you can reach me at:
 
-<Khen1950fx@aol.com>
-
-=========================================
 
 INSTALLATION
 
@@ -25,7 +20,6 @@ This module requires these other modules and libraries:
 
 COPYRIGHT AND LICENCE
 
-Put the correct copyright and licence information here.
 
 Copyright (C) 2007 by Kevin W. Henwood
 
