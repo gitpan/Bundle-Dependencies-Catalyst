@@ -1,6 +1,7 @@
-Bundle-Dependencies-Catalyst version 0.01
+Bundle-Dependencies-Catalyst version 0.04
 =========================================
 
+Bundle-Dependencies-Catalyst is designed for backwards-compatibilty to 5.8.8. I'll soon be releasing Task-DependenciesCatalyst for backwards-compatibilty to 5.005.
 
 INSTALLATION
 

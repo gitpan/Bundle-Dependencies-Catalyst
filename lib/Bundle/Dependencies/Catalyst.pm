@@ -2,7 +2,7 @@ package Bundle::Dependencies::Catalyst;
 
 
 
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 
 
@@ -205,8 +205,6 @@ Class::Trigger
 
 Template::Plugin::Class
 
-Catalyst::View::TT
-
 Class::DBI::AsForm
 
 Class::DBI::FromForm
@@ -232,8 +230,6 @@ Tie::IxHash
 FormValidator::Simple
 
 POE
-
-Catalyst::Engine::HTTP::POE
 
 Lingua::EN::Inflect
 
@@ -1133,9 +1129,6 @@ MogileFS::Client
 
 FCGI::ProcManager
 
-=head2 EXPORT
-
-None by default.
 
 =head1 AUTHOR
 
@@ -1151,3 +1144,5 @@ at your option, any later version of Perl 5 you may have available.
 
 
 =cut
+
+1;
