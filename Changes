@@ -1,6 +1,6 @@
 Revision history for Perl extension Bundle::Dependencies::Catalyst.
 
-0.04  Sun Jun 10 00:42:36 2007
+0.05 Sun Jun 10 00:42:36 2007
 	- original version; created by h2xs 1.23 with options
 		-AXcfn Bundle::Dependencies::Catalyst
 

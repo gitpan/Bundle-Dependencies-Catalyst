@@ -1,12 +1,12 @@
 package Bundle::Dependencies::Catalyst;
 
+use strict;
+use warnings;
 
-
-$VERSION = '0.04';
-
-
+our $VERSION = '0.05';
 
 1;
+
 __END__
 
 
@@ -18,8 +18,8 @@ Bundle::Dependencies::Catalyst - installs non-Catalyst prereqs
 
   perl -MCPAN -e 'install Bundle::Dependencies::Catalyst'
   
-
-=head1 CONTENT
+  
+=head1 CONTENTS
 
 Config
 
@@ -141,8 +141,6 @@ IO::String
 
 PAR::Dist
 
-Module::CoreList
-
 Module::ScanDeps
 
 File::Copy::Recursive
@@ -190,8 +188,6 @@ File::Find
 Bundle::DBI
 
 DBIx::ContextualFetch
-
-IO::stringy
 
 UNIVERSAL::moniker
 
@@ -291,8 +287,6 @@ DBD::mysql
 
 DBD::Pg
 
-DBD::DB2
-
 Class::Data::Accessor
 
 SQL::Abstract
@@ -379,13 +373,9 @@ Text::vCard
 
 Math::BigInt
 
-Math::Pari
-
 bignum
 
 Math::BigRat
-
-Math::BigInt::Pari
 
 Math::BigInt::GMP
 
@@ -571,19 +561,13 @@ Compress::Raw::Zlib
 
 IO::Compress::Base
 
-IO::Compress::Zlib
-
 ExtUtils::Install
-
-File::BSDGlob
 
 Crypt::Des
 
 Class::Loader
 
 Crypt::Random
-
-Crypt::Primes
 
 Convert::ASN1
 
@@ -711,15 +695,11 @@ Email::Simple
 
 Email::Send
 
-Email::MIME::Content
-
 Email::MIME::Encodings
 
 Sys::Hostname
 
 Email::MessageID
-
-Email::Modifier
 
 Email::Simple::Creator
 
@@ -738,8 +718,6 @@ Rose::Object
 Clone::PP
 
 Rose::HTML::Objects
-
-Rose::HTMLx::Form::Field::Text
 
 Data::Page
 
@@ -788,8 +766,6 @@ GD::SecurityImage
 Set::Crontab
 
 DateTime::Set
-
-DateTime::Cron
 
 POE
 
@@ -849,7 +825,7 @@ Class::DBI::Sweet
 
 DBIx::DBSchema
 
-DateTime::FormatISO8601
+DateTime::Format::ISO8601
 
 Exporter::Lite
 
@@ -881,7 +857,7 @@ Time::Piece
 
 Date::Simple
 
-Find::File::Rule
+File::Find::Rule
 
 Attribute::Handlers
 
