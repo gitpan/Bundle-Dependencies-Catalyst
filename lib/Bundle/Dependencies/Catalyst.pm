@@ -3,7 +3,7 @@ package Bundle::Dependencies::Catalyst;
 use strict;
 use warnings;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 1;
 
@@ -20,6 +20,46 @@ Bundle::Dependencies::Catalyst - installs non-Catalyst prereqs
   
   
 =head1 CONTENTS
+
+Test::NoWarnings
+
+Test::Tester
+
+Test::Benchmark
+
+Date::ICal
+
+Devel::Symdump
+
+Crypt::Rijndael
+
+Unicode::Japanese
+
+MIME::Tools
+
+Tripletail
+
+HTTP::Server::Simple::CGI
+
+CGI::Application
+
+I18N::LangTags
+
+Locale::Maketext
+
+ExtUtils::Constant
+
+Cache::Memcached
+
+Cache::Memcached::GetParserXS
+
+Cache::Memcached::Indexable
+
+Cache::Memcached::Tie
+
+Cache::Memcached::Semaphore
+
+Cache::Memcached::XS
 
 Config
 
@@ -217,7 +257,7 @@ DateTime::Format::Strptime
 
 Email::Valid
 
-Email::Vaild::Loose
+Email::Valid::Loose
 
 UNIVERSAL::require
 
@@ -351,13 +391,17 @@ XML::LibXML
 
 XML::XPath
 
+Digest::HMAC
+
 Digest::MD5
+
+Digest::SHA
 
 Digest::SHA1
 
-Config::Any
+SHA
 
-Tesk::MockObject
+Config::Any
 
 Test::use::ok
 
@@ -384,8 +428,6 @@ Math::BigInt::FastCalc
 Math::BigInt
 
 Net::IP
-
-Digest::HMAC
 
 Net::DNS
 
@@ -563,8 +605,6 @@ IO::Compress::Base
 
 ExtUtils::Install
 
-Crypt::Des
-
 Class::Loader
 
 Crypt::Random
@@ -581,7 +621,7 @@ Digest::MD2
 
 Data::Buffer
 
-Convert::ANSCII::Armour
+Convert::ASCII::Armour
 
 Tie::EncryptedHash
 
@@ -613,7 +653,7 @@ Digest::SHA256
 
 File::Find::Rule
 
-Module::Corelist
+Module::CoreList
 
 Module::Signature
 
@@ -641,7 +681,7 @@ Data::Taxi
 
 Config::General
 
-FreeThaw
+FreezeThaw
 
 XML::Simple
 
@@ -735,15 +775,9 @@ DateTime::Format::MySQL
 
 DateTime::Format::Pg
 
-Rose::DB
-
-Scalar::Util::Clone
-
 List::MoreUtils
 
 Time::Clock
-
-Rose::DB::Object
 
 Class::ISA
 
@@ -794,6 +828,8 @@ Template::Provider::Encoding
 XML::LibXSLT
 
 Module::Load
+
+Module::Load::Conditional
 
 Params::Check
 
@@ -853,21 +889,15 @@ Date::Range
 
 Time::Piece
 
-Time::Piece
-
 Date::Simple
 
 File::Find::Rule
 
 Attribute::Handlers
 
-Devel::Symdump
-
 Test::Class
 
 Test::Harness
-
-Search::Xapian
 
 String::Escape
 
