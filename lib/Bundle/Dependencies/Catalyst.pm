@@ -3,7 +3,7 @@ package Bundle::Dependencies::Catalyst;
 use strict;
 use warnings;
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 1;
 
@@ -1047,8 +1047,6 @@ Scalar::Listify
 
 List::Rotation::Cycle
 
-Array::Cycle
-
 Class::Prototyped
 
 HTML::PrettyPrinter
@@ -1081,9 +1079,9 @@ MIME::Lite::TT
 
 MIME::Lite::TT::Japanese
 
-MIME::LIte::TT:HTML::Japanese
+MIME::Lite::TT:HTML::Japanese
 
-OLE::Storage_lite
+OLE::Storage_Lite
 
 Text::TabularDisplay
 
