@@ -1,9 +1,9 @@
 --- #YAML:1.0
 name:                Bundle-Dependencies-Catalyst
-version:             0.07
+version:             0.08
 abstract:            ~
 license:             ~
-generated_by:        ExtUtils::MakeMaker version 6.35
+generated_by:        ExtUtils::MakeMaker version 6.36
 distribution_type:   module
 requires:     
 meta-spec:

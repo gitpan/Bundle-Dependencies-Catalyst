@@ -3,7 +3,7 @@ package Bundle::Dependencies::Catalyst;
 use strict;
 use warnings;
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 1;
 
@@ -1079,7 +1079,7 @@ MIME::Lite::TT
 
 MIME::Lite::TT::Japanese
 
-MIME::Lite::TT:HTML::Japanese
+MIME::Lite::TT::HTML::Japanese
 
 OLE::Storage_Lite
 
@@ -1122,10 +1122,6 @@ HTML::Widget::DBIC
 CGI::Fast
 
 FCGI::ProcManager
-
-Image::Magick
-
-Image::Magick::Thumbnail::Fixed
 
 IO::WrapTie
 
