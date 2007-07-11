@@ -1,8 +1,8 @@
-Revision history for Perl extension Bundle-Dependencies-Catalyst.
+Revision history for Perl extension Bundle::Dependencies::Catalyst.
 
-0.08  Thu Jul  5 01:11:38 2007
+0.09  Tue Jul 10 23:05:30 2007
 	- original version; created by h2xs 1.23 with options
-		-AXcfn Bundle-Dependencies-Catalyst
-        - fixed Bundle-Dependencies-Catalyst.t
-        - removed Image::Magick and Image::Magick::Thumbnail::Fixed
-        - fixed a typo
+		-AXcfn Bundle::Dependencies::Catalyst
+        - removed Wx 
+        - removed I18N::LangTags::Detect
+        - added I18N::LangTags

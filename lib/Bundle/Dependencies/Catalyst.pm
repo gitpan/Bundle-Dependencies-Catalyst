@@ -3,7 +3,7 @@ package Bundle::Dependencies::Catalyst;
 use strict;
 use warnings;
 
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 1;
 
@@ -451,7 +451,7 @@ Net::Amazon
 
 Log::Log4perl
 
-I18N::LangTags::Detect
+I18N::LangTags
 
 ExtUtils::Manifest
 
@@ -572,8 +572,6 @@ Pod::Simple
 Test::Builder
 
 Test::Builder::Tester
-
-Wx
 
 Alien
 
